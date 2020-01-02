@@ -29,7 +29,7 @@ export default class ForgetPage extends React.Component {
             if(result.state==2){
                 message.info("填写信息不正确，找回密码失败，请重试！")
             }else if(result.state==1){
-                message.info("找回密码并修改成功！")
+                message.info("找回密码并修改成功")
             } 
         }).catch(e=>{
             message.error(e);

@@ -47,27 +47,27 @@ export default class RegisterPage extends React.Component {
                         <div className={RegisterCss.z5_z6}>
                             <div className={RegisterCss.z6}>
                                 <label for="usename">&nbsp;&nbsp;用&nbsp;&nbsp;户&nbsp;&nbsp;名&nbsp;</label>
-                                <Input type="text" name="username" placeholder="请输入您的用户名" value={this.state.username} onChange={e=>this.changeValue(e)}/>
+                                <Input type="text" name="username" placeholder="输入您的用户名" value={this.state.username} onChange={e=>this.changeValue(e)}/>
 
                             </div>
                         </div>
                         <div className={RegisterCss.z5_z6}>
                             <div className={RegisterCss.z6}>
                                 <label for="uid">账 号 号 码</label>
-                                <Input type="text" name="uid" placeholder="请输入您的账号号码"  value={this.state.uid} onChange={e=>this.changeValue(e)}  />
+                                <Input type="text" name="uid" placeholder="输入您的账号号码"  value={this.state.uid} onChange={e=>this.changeValue(e)}  />
                             </div>
                         </div>
                         <div className={RegisterCss.z5_z6}>
                             <div className={RegisterCss.z6}>
                                 <label for="password">设 置 密 码</label>
-                                <Input type="password" name="password" placeholder="请输入您的密码" value={this.state.password} onChange={e=>this.changeValue(e)} />
+                                <Input type="password" name="password" placeholder="输入您的密码" value={this.state.password} onChange={e=>this.changeValue(e)} />
 
                             </div>
                         </div>
                         <div className={RegisterCss.z5_z6}>
                             <div className={RegisterCss.z6}>
                                 <label for="password2">确 认 密 码</label>
-                                <Input type="password2" name="password2" placeholder="请再次输入您的密码" value={this.state.password2} onChange={e=>this.changeValue(e)} />
+                                <Input type="password2" name="password2" placeholder="再次输入您的密码" value={this.state.password2} onChange={e=>this.changeValue(e)} />
                             </div>
                         </div>
                         <div className={RegisterCss.z5_z6,RegisterCss.xieyi}>

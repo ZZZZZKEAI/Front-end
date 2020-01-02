@@ -44,9 +44,9 @@ export default class LoginPage extends React.Component {
                     <div className={LoginCss.login_top}>
                         <h1>账户登录</h1>
                         <form>
-                            <Input type="text"  name="uid" value={this.state.uid} onChange={e=>this.changeValue(e)} placeholder="请输入您的用户ID"/>
-                            <Input type="text" type="text" name="username" value={this.state.username} onChange={e=>this.changeValue(e)} placeholder="请输入您的用户名"/>
-                            <Input type="password" name="password" value={this.state.password} onChange={e=>this.changeValue(e)} placeholder="请输入您的密码" />
+                            <Input type="text"  name="uid" value={this.state.uid} onChange={e=>this.changeValue(e)} placeholder="输入您的用户ID"/>
+                            <Input type="text" type="text" name="username" value={this.state.username} onChange={e=>this.changeValue(e)} placeholder="输入您的用户名"/>
+                            <Input type="password" name="password" value={this.state.password} onChange={e=>this.changeValue(e)} placeholder="输入您的密码" />
                         </form>
                         <div className={LoginCss.forgot}>
                         <Link to='/forget'>忘记密码?</Link>
